@@ -5,7 +5,7 @@ This repository contains the solutions and code for Lab 1 tasks assigned in Full
 ## Contents
 
 - Task 1: Calculator
-  <img width="3072" height="1650" alt="image" src="https://github.com/user-attachments/assets/7ba6092d-e34b-488a-9b58-fe3ba619f55c" />
+<img width="3072" height="1650" alt="image" src="https://github.com/user-attachments/assets/1f29a0a8-6008-49a1-aff4-336380c78a71" />
 
 - Task 2: CV
 <img width="3072" height="3296" alt="image" src="https://github.com/user-attachments/assets/2a43cc85-5c92-43b4-8d62-aa056ec8d1c9" />
