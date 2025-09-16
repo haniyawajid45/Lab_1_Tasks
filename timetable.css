@@ -1,0 +1,136 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F2EAE4;
+    color: #1E1C3A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.timetable-container {
+    background-color: #ffffff;
+    padding: 32px 40px;
+    border-radius: 18px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 1600px;
+    border: 1px solid #E4DBD6;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #8C7E8F;
+}
+
+.header span {
+    font-size: 1em;
+    font-weight: 600;
+    color: #C4A39A;
+}
+
+h1 {
+    color: #1E1C3A;
+    margin: 0;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+th,
+td {
+    border: 1px solid #ddd7d3;
+    padding: 14px;
+    text-align: center;
+    vertical-align: middle;
+    height: 90px;
+    background-color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+thead th {
+    font-weight: 800; 
+        font-size: 1em;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #8C7E8F;
+    background-color: #1E1C3A;              
+    color: #F2EAE4;                          
+}
+
+.time-sub {
+    display: block;
+    font-weight: 400;
+    color: #ddd;
+    margin-top: 4px;
+}
+
+tbody td.day {
+    background-color: #C4A39A;
+    font-weight: 700;
+    font-size: 1.4em;
+    color: #1E1C3A;
+    width: 70px;
+    border-right: 2px solid #B48D85;
+}
+
+.subject {
+    background-color: #ffffff;
+    font-size: 0.95em;
+    padding: 14px;
+    border-radius: 12px;
+}
+
+.subject:hover {
+    background-color: #ECE5E1;
+}
+
+.subject span {
+    display: block;
+    line-height: 1.5;
+}
+
+.course-title {
+    font-weight: 600;
+    color: #1E1C3A;
+    font-size: 1.05em;
+    margin-bottom: 5px;
+}
+
+.instructor,
+.course-code,
+.location {
+    color: #666666;
+    font-size: 0.85em;
+}
+
+.lab {
+    background-color: #8C7E8F22;
+    border-radius: 12px;
+}
+
+.free-slot {
+    background-color: #ffffff;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    padding-top: 12px;
+    font-size: 0.85em;
+    color: #3C3E5C;
+    border-top: 2px solid #8C7E8F;
+}
